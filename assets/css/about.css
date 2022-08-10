@@ -1,0 +1,23 @@
+.satu {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 226px;
+    top: 72px;
+}
+
+.dua {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 650px;
+    top: 72px;
+}
+
+.tiga {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 1093px;
+    top: 72px;
+}
