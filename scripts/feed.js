@@ -83,9 +83,8 @@ function renderProjects(projArr, button) {
             </div>
         </div>`
         ).join('');
-
-    adaptProjectView();
 }
+
 
 const popularProjectsButton = document.getElementById('popular-projects');
 popularProjectsButton.addEventListener("click", function(){
@@ -102,20 +101,33 @@ endSoonProjectsButton.addEventListener("click", function(){
     renderProjects(ENDING_SOON_PROJECTS, endSoonProjectsButton);
 });
 
+let searchTabOpen = false;
+let recentSearchs = [];
+
 const handleAllClickables = () => {
     const searchButton = document.getElementById('search-button');
-    let searchTabOpen = false;
-    // searchButton.addEventListener('click')
+    const searchTab = document.getElementsByClassName('search-tab');
+
+    searchButton.addEventListener('click', function(){
+        searchTab[0].classList.add('shown');
+        searchTabOpen = true;
+    })
+
+    const exitSearchButton = document.getElementById('exit-search');
+    exitSearchButton.addEventListener('click', function(){
+        searchTab[0].classList.remove('shown');
+        searchTabOpen = false;
+    })
 }
 
 // RENDER ON START AND RESIZE
-document.addEventListener("DOMContentLoaded", function(e) {
+document.addEventListener("DOMContentLoaded", function() {
     adaptProjectView();
     renderProjects(POPULAR_PROJECTS, popularProjectsButton);
 
     handleAllClickables();
 })
 
-window.addEventListener("resize", function(e) {
+window.addEventListener("resize", function() {
     adaptProjectView();
 })
