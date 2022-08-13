@@ -31,7 +31,7 @@ body {
 
 .backgroundIMG{
     width: 100vw; height: 100vh;
-    background-image: url("../img/feed_background.png");
+    background-image: url("../img/_background1.png");
     z-index: -1;
     position: fixed;
     background-size: cover;
@@ -155,6 +155,7 @@ body {
 
 .nav-item:hover{
     cursor: pointer;
+    color: rgb(61, 61, 61);
 }
 
 .nav-item-icon{
@@ -296,7 +297,12 @@ body {
 }
 
 /* SEARCH FUNCTIONALITY */
-
+#search-section{
+    width: 30%; height: 100vh;
+    position: absolute; right: 0;
+    z-index: 20;
+    background-color: #D8D8D8;
+}
 
 @media only screen and (max-width : 870px) {
     .content-container{
