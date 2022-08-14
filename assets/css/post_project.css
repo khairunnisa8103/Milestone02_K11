@@ -63,6 +63,13 @@ a {
     align-content: center;
     background-color: #00ccd2;
     border: none;
+    width: min(8vh,8vw);
+    height: min(8vh,8vw);
+}
+
+img{
+    width: 100%;
+    height: auto;
 }
 
 .container {
@@ -182,7 +189,7 @@ a {
     width: min(20vh,20vw);
     height: min(7vh,7vw);
     font-weight: 700;
-    
+    cursor: pointer;
 }
 
 
