@@ -3,11 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="../assets/img/logo_dark.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/post_project.css">
+    <script src="../scripts/post_project.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Findanziare | Post Project</title>
 </head>
 <body>
-    Test Dulu
-    
+    <div class="backgroundIMG"></div>
+    <div class="blank_space"></div>
+    <div class="parent">
+        <div>
+            <a href="../views/feed.html">
+                <button class="clickable" id="backButton">
+                    <img src="../assets/img/Arrow_alt_left.png">
+                </button>
+            </a>
+        </div>
+        <div class="container"> 
+            <div class="head_of_content">
+                Post a Project
+            </div>
+            <div class="project">
+                <div class="project_file">
+                    <form action="#">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <p>Masukkan Gambar...</p>
+                    </form>
+                    <section class="progress-area"></section>
+                </div>
+                <div class="project_name">
+                    <form action="#"> 
+                        <p>Masukkan nama project...</p>
+                    </form>
+                </div>
+            </div>
+            <div class="project_detail">
+                <div class="project_description">
+                    <div class="project_target">
+                        <label class="h1">Target Pendanaan&ensp;:</label>
+                        <form action="#">
+                            <p class="h2">&ensp;&ensp;&ensp;&emsp;Masukkan target pendanaan...</p>
+                        </form>
+                    </div>
+                    <div class="project_about">
+                        <label class="h1">Deskripsi Projek&ensp;&ensp;:</label>
+                        <form action="#">
+                            <p class="h2">&ensp;&ensp;&ensp;&emsp;Masukkan deskripsi projek...</p>
+                        </form>
+                    </div>
+                </div>
+                <div class="category">
+                    <select id="category_select">
+                        <option value="">Kategori</option>
+                    </select>
+                </div>
+            </div>
+            <div class="Submit">
+                <input type="submit" value="Submit" id="submit_button">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
