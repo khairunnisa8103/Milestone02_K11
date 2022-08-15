@@ -1,1 +1,2 @@
 login -> belum bisa ngestore user mana yang mau login tapi bisa auth
+register -> belum bisa ngestore user baru ke json
