@@ -1,23 +1,36 @@
-.satu {
-    position: absolute;
-    width: 115px;
-    height: 115px;
-    left: 226px;
-    top: 72px;
+body {
+    width: 100%;
+    margin: auto;
 }
 
-.dua {
-    position: absolute;
-    width: 115px;
-    height: 115px;
-    left: 650px;
-    top: 72px;
+
+/* solusi */
+
+.wrapper-solusi {
+    padding: 65px 158px;
+    margin: auto;
 }
 
+.solusi {
+    float: left;
+}
+
+.content {
+    text-align: center;
+}
+
+.satu,
+.dua,
 .tiga {
-    position: absolute;
+    width: 33.33%
+}
+
+.solusi img {
     width: 115px;
     height: 115px;
-    left: 1093px;
-    top: 72px;
 }
+
+.solusi h3 {}
+
+
+/*Latar Belakang*/
