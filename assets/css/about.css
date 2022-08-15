@@ -33,7 +33,7 @@ body {
 /* solusi */
 
 .wrapper-solusi {
-    padding: 65px 158px;
+    padding: 5vh 10vh;
     margin: auto;
     display: flex;
 }
@@ -43,23 +43,23 @@ body {
 }
 
 .solusi {
-    width: 33.33%;
+    width: 33.3vw;
 }
 
 h3 {
     color: #6DD3CF;
-    font-size: 35px;
-    height: 54px;
+    font-size: 3.42vh;
+    height: 5.27vh;
 }
 
 .solusi img {
-    width: 115px;
-    height: 115px;
-    margin-bottom: 34px;
+    width: 11.23vh;
+    height: 11.23vh;
+    margin-bottom: 3.32vh;
 }
 
 .solusi p {
-    font-size: 31px;
+    font-size: 3.03vh;
 }
 
 
@@ -67,9 +67,9 @@ h3 {
 
 h2 {
     color: #6DD3CF;
-    font-size: 46px;
+    font-size: 4.49vh;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 1vh;
 }
 
 
@@ -79,15 +79,15 @@ h2 {
 
 .latar-belakang img {
     position: relative;
-    width: 510px;
-    height: 380px;
-    left: -590px;
-    top: 125px;
+    width: 48.81vh;
+    height: 37.11vh;
+    left: -57.6vh;
+    top: 12.21vh;
 }
 
 .elips1 {
-    width: 705px;
-    height: 703px;
+    width: 68.65vh;
+    height: 68.65vh;
     border-radius: 50%;
     float: left;
     z-index: -1;
@@ -97,9 +97,9 @@ h2 {
 
 .elips2 {
     position: absolute;
-    width: 292.04px;
-    height: 290.6px;
-    left: 400px;
+    width: 28.38vh;
+    height: 28.38vh;
+    left: 27.78vw;
     border-radius: 50%;
     z-index: -2;
     background: linear-gradient(180deg, #6DD3CF 0%, rgba(217, 217, 217, 0) 100%);
@@ -108,6 +108,6 @@ h2 {
 
 .isi-latar-belakang {
     position: relative;
-    top: -300px;
-    font-size: 31px;
+    top: -29.3vh;
+    font-size: 3.03vh;
 }
