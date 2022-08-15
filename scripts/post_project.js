@@ -16,7 +16,12 @@ var loadFile = function(event) {
     }
 }
 
-
+/* Submit Button */
+$(document).$ready(function(){
+    $("#submit_button").click(function() {
+        $("#projectData").submit()
+    })
+})
 
 // fileInput.onchange = ({target}) => {
 //     let file = target.files[0];

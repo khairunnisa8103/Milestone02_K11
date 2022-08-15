@@ -85,7 +85,7 @@ a {
 
 /* header */
 .head_of_content {
-    font-size: min(5vh,5vw);
+    font-size: min(4.5vh,4.5vw);
     font-weight: 700;
     color: #00CCD2;
     padding: min(4vh, 4vw);
@@ -96,11 +96,11 @@ a {
 
 /*upload_project*/
 .project{
+    margin-top: min(5vh,5vw);
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
-    padding: 21px;
     align-items: center;
     justify-content: center;
 }
@@ -113,10 +113,17 @@ a {
     width: 58%;
     background: #D8F2FF;
     border-radius: 7px 7px 0px 0px;
-    height: min(35vh,35vh);
+    height: min(40vh,40vh);
     color: #BCC1C9;
     font-size: min(3vh,3vw);
     cursor: pointer;
+}
+
+/* Masih kendala di output*/
+#output {
+    height: min(35vh,35vh);
+    object-fit: cover;
+    object-position: right;
 }
 
 
@@ -143,12 +150,12 @@ a {
     align-items: center;
     align-self: center;
     align-content: center;
-    background-color: #3F585F;
+    background-color: transparent;
     background: #3F585F;
     color: #BCC1C9;
     font-size: min(2vh,2vw);
     font-weight: 700;
-    width: min(50vh,50vw);
+    width: min(50vh,40vw);
     border: none;
     border-style: none;
 }
@@ -172,7 +179,7 @@ a {
 
 #input-project-target {
     height: auto;
-    width: min(60vh,60vh);
+    width: min(60vh,40vw);
     outline: none;
     background-color: none;
     background: #D9D9D9;
@@ -187,7 +194,7 @@ a {
 
 #input-project-about {
     height: auto;
-    width: min(60vh,60vh);
+    width: min(60vh,40vw);
     outline: none;
     background-color: none;
     background: #D9D9D9;
