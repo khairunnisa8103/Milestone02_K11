@@ -9,7 +9,7 @@
 body {
     min-height: 100vh;
     background: grey;
-    background-image: url(background.png);
+    background-image: url("../img/background.png");
     background-repeat: no-repeat, repeat;
     background-size: cover;
     background-color: #cccccc;
@@ -53,7 +53,7 @@ h2 {
     border: none;
 }
 
-.loginbtn {
+.button {
     height: 45px;
     width: 100%;
     border: none;
@@ -64,22 +64,11 @@ h2 {
     margin-top: 20px;
 }
 
-.loginbtn:hover {
+.button:hover {
     background-position: right;
 }
 
 .forgor {
     text-align: center;
     font-size: 11px;
-}
-
-.loginbtn2 {
-    height: 45px;
-    width: 100%;
-    border: none;
-    outline: none;
-    background: white;
-    background-size: 200%;
-    color: #00CCD2;
-    margin-top: 10px;
 }

@@ -3,7 +3,7 @@
 
 <head>
     <title>Login</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="/assets/css/login.css">
 </head>
 
 <body>
@@ -30,7 +30,7 @@
                 var input_username = document.getElementById("username").value;
                 var input_password = document.getElementById("password").value;
                 //reading the json file
-                fetch("datauser.json")
+                fetch("../data/datauser.json")
                     .then(response => response.json())
                     .then(data => {
                         console.log(data.username)
@@ -48,7 +48,7 @@
                                 password: input_password
                             }
                             activeuser = JSON.stringify(datauser) //ceritanya bakal diwrite ke file JSON baru nanti page profile dll tinggal read dari JSONnya aja
-                            location.href = "index4.html" //sesuaikan sama page home
+                            location.href = "home.html" //sesuaikan sama page home
                         }
 
                     })
