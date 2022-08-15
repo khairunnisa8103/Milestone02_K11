@@ -24,16 +24,19 @@
 }
 
 body {
-    width: 100%;
+    width: 100vw;
     margin: auto;
     background-color: #F0EFEA;
+    background-image: url("../img/background_about.png");
+    background-size: max(100vw, 100vh);
 }
 
 
 /* solusi */
 
 .wrapper-solusi {
-    padding: 5vh 10vh;
+    width: 100%;
+    padding: 5vh 5vw 7vh;
     margin: auto;
     display: flex;
 }
@@ -48,18 +51,18 @@ body {
 
 h3 {
     color: #6DD3CF;
-    font-size: 3.42vh;
-    height: 5.27vh;
+    font-size: min(3.42vh, 2.43vw);
+    height: 20%;
 }
 
 .solusi img {
-    width: 11.23vh;
-    height: 11.23vh;
-    margin-bottom: 3.32vh;
+    width: min(11.23vw, 7.98vw);
+    height: min(11.23vw, 7.98vw);
+    margin-bottom: 5%;
 }
 
 .solusi p {
-    font-size: 3.03vh;
+    font-size: min(3.03vh, 2.15vw);
 }
 
 
@@ -67,47 +70,13 @@ h3 {
 
 h2 {
     color: #6DD3CF;
-    font-size: 4.49vh;
+    font-size: min(4.49vh, 3.19vw);
     text-align: center;
     padding-bottom: 1vh;
 }
 
-
-/* .dekorasi {
-    background-color: blue;
-} */
-
-.latar-belakang img {
-    position: relative;
-    width: 48.81vh;
-    height: 37.11vh;
-    left: -57.6vh;
-    top: 12.21vh;
-}
-
-.elips1 {
-    width: 68.65vh;
-    height: 68.65vh;
-    border-radius: 50%;
-    float: left;
-    z-index: -1;
-    background: linear-gradient(180deg, #6DD3CF 0%, rgba(217, 217, 217, 0) 100%);
-    transform: rotate(52.49deg);
-}
-
-.elips2 {
-    position: absolute;
-    width: 28.38vh;
-    height: 28.38vh;
-    left: 27.78vw;
-    border-radius: 50%;
-    z-index: -2;
-    background: linear-gradient(180deg, #6DD3CF 0%, rgba(217, 217, 217, 0) 100%);
-    transform: rotate(52.49deg);
-}
-
-.isi-latar-belakang {
-    position: relative;
-    top: -29.3vh;
-    font-size: 3.03vh;
+.latar-belakang {
+    display: flex;
+    padding: 2vh 10vw;
+    font-size: min(3.03vh, 2.15vw);
 }
