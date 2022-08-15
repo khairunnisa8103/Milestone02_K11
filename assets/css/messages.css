@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body {
+    padding: 2% 10%;
+    height: 100vh;
+}
+
+main {
+    background-color: rgb(217,219,219);
+    height: 100%;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    padding: 5px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex {
+    flex: 1;
+}
+
+#message-dashboard {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    border-right: 1px solid black;
+}
+
+#message-dashboard > * {
+    margin: 5px;
+}
+
+#message-content {
+    flex-grow: 2;
+    flex-basis: 0;
+    flex-shrink: 0;
+}
+
+#menu {
+    padding: 5%;
+}
+
+#message-search-container {
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 100%;
+    background: none;
+}
+
+#message-unread {
+    display: none;
+}
+
+.search-icon {
+    background-image: url('../img/feed_searchlogo.png');
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 1em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.profile-icon {
+    border-radius: 100px;
+    background-color: gray;
+    padding: 1.5em;
+}
+
+.unread-content-count {
+    visibility: hidden;
+    position: relative;
+    aspect-ratio: 1 / 1;
+    border-radius: 100px;
+    background-color: rgba(0,204,210,255);
+    padding: 1em;
+}
+
+.center {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#message-list > div {
+    justify-content: center;
+    align-items: center;
+}
