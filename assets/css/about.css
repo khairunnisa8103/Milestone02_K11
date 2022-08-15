@@ -1,6 +1,32 @@
+/* miriam-libre-regular - latin */
+
+@font-face {
+    font-family: 'Miriam Libre';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/miriam-libre-v13-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../font/miriam-libre-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/miriam-libre-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../font/miriam-libre-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../font/miriam-libre-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../font/miriam-libre-v13-latin-regular.svg') format('svg');
+    /* Legacy iOS */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Miriam Libre', sans-serif;
+    list-style: none;
+}
+
 body {
     width: 100%;
     margin: auto;
+    background-color: #F0EFEA;
 }
 
 
@@ -9,28 +35,79 @@ body {
 .wrapper-solusi {
     padding: 65px 158px;
     margin: auto;
-}
-
-.solusi {
-    float: left;
+    display: flex;
 }
 
 .content {
     text-align: center;
 }
 
-.satu,
-.dua,
-.tiga {
-    width: 33.33%
+.solusi {
+    width: 33.33%;
+}
+
+h3 {
+    color: #6DD3CF;
+    font-size: 35px;
+    height: 54px;
 }
 
 .solusi img {
     width: 115px;
     height: 115px;
+    margin-bottom: 34px;
 }
 
-.solusi h3 {}
+.solusi p {
+    font-size: 31px;
+}
 
 
 /*Latar Belakang*/
+
+h2 {
+    color: #6DD3CF;
+    font-size: 46px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/* .dekorasi {
+    background-color: blue;
+} */
+
+.latar-belakang img {
+    position: relative;
+    width: 510px;
+    height: 380px;
+    left: -590px;
+    top: 125px;
+}
+
+.elips1 {
+    width: 705px;
+    height: 703px;
+    border-radius: 50%;
+    float: left;
+    z-index: -1;
+    background: linear-gradient(180deg, #6DD3CF 0%, rgba(217, 217, 217, 0) 100%);
+    transform: rotate(52.49deg);
+}
+
+.elips2 {
+    position: absolute;
+    width: 292.04px;
+    height: 290.6px;
+    left: 400px;
+    border-radius: 50%;
+    z-index: -2;
+    background: linear-gradient(180deg, #6DD3CF 0%, rgba(217, 217, 217, 0) 100%);
+    transform: rotate(52.49deg);
+}
+
+.isi-latar-belakang {
+    position: relative;
+    top: -300px;
+    font-size: 31px;
+}
