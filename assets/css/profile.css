@@ -126,8 +126,16 @@
       font-weight: bold;
       color: #00CCD2;
       text-align: center;
-      margin-top: 1%;
-      font-size: min(5vh,5vw);
+      margin-top: 0%;
+      margin-bottom: 1%;
+      font-size: min(7vh,7vw);
+  }
+  .projects-name{
+    font-weight: bold;
+    color: #00CCD2;
+    text-align: center;
+    margin-top: 30%;
+    font-size: min(7vh,7vw);
   }
   
   .user-username{
