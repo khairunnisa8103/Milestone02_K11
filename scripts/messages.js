@@ -28,7 +28,6 @@ const CHATS_DATA = {
 
 const CHATS_USERNAME = ["johnny", "jennie"]
 
-const chats_thumbnail = document.getElementsByClassName("message");
 const message_list = document.getElementById("message-list");
 const message_instances = document.getElementById("message-instances")
 const inactive_messsage = document.getElementById("inactive-message")
@@ -123,6 +122,8 @@ const generate_message_instance = (data) => {
 }
 
 const clear_message = () => {
+    const chats_thumbnail = document.getElementsByClassName("message");
+
     message_instances.innerHTML = "";
     message_name.innerText = "";
     message_username.innerText = "";
@@ -181,11 +182,6 @@ const activate_chat = (chat) => {
     });
 }
 
-// for(const chat_thumbnail of chats_thumbnail){
-//     chat_thumbnail.addEventListener("click", ()=>{
-//         activate_chat(chat_thumbnail)
-//     })
-// }
 
 document.addEventListener("DOMContentLoaded", (event) => {
     for(const chat_username of CHATS_USERNAME){
@@ -194,7 +190,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
         chat_instance.addEventListener("click", ()=>{
             activate_chat(chat_instance)
         })
-
+        
         message_list.appendChild(chat_instance);
     }
+    // for(const chat_thumbnail of chats_thumbnail){
+    //     chat_thumbnail.addEventListener("click", ()=>{
+    //         activate_chat(chat_thumbnail)
+    //     })
+    // }
 })
