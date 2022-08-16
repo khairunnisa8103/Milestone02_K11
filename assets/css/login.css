@@ -66,6 +66,7 @@ h2 {
 .textbox input {
     background: none;
     border: none;
+    outline: none;
 }
 
 .button {
