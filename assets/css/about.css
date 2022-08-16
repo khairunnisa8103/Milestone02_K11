@@ -28,7 +28,7 @@ body {
     margin: auto;
     background-color: #F0EFEA;
     background-image: url("../img/background_about.png");
-    background-size: max(100vw, 100vh);
+    background-size: 100vw 100vh;
 }
 
 
@@ -47,6 +47,14 @@ body {
 
 .solusi {
     width: 33.3vw;
+    opacity: .5;
+    border-radius: 5%;
+    padding: 2%;
+}
+
+.solusi:hover {
+    opacity: 1;
+    background-color: #efede0;
 }
 
 h3 {
