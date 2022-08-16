@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Miriam Libre';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/miriam-libre-v13-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../font/miriam-libre-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/miriam-libre-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../font/miriam-libre-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../font/miriam-libre-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../font/miriam-libre-v13-latin-regular.svg') format('svg');
+    /* Legacy iOS */
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1px;
+    padding: 1px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: grey;
+    background-image: url("../img/masukan.png");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+}
+
+form {
+    background: #D9D9D9;
+    width: 1300px;
+    height: 550px;
+    padding: 75px 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: left;
+    color: #00CCD2;
+    font-size: 24px;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.textbox {
+    position: relative;
+    margin: 0px 0;
+    color: #00CCD2;
+}
+
+.textbox input {
+    background: none;
+    border: none;
+    width: 100%;
+}
+
+.button {
+    height: 45px;
+    width: 10%;
+    border: none;
+    outline: none;
+    background: #6DD3CF;
+    background-size: 200%;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.button:hover {
+    background-position: right;
+}
+
+.button2 {
+    height: 45px;
+    width: 10%;
+    border: none;
+    outline: none;
+    background: white;
+    background-size: 200%;
+    color: #00CCD2;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 190px;
+}

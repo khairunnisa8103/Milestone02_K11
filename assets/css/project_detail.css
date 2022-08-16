@@ -11,6 +11,17 @@
          url('../font/miriam-libre-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../font/miriam-libre-v13-latin-regular.svg') format('svg'); /* Legacy iOS */
   }
+
+.backgroundIMG{
+    width: 100vw; height: 100vh;
+    background-image: url("../img/background_pp.png");
+    z-index: -1;
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #F0EFEA;
+}
+
 .h1 {
     font-size: min(2.8vw,2.8vh);
     font-weight: 700;
@@ -39,16 +50,6 @@ a {
 
 .clickable {
     cursor: pointer;
-}
-
-.backgroundIMG{
-    width: 100vw; height: 100vh;
-    background-image: url("../img/background_pp.png");
-    z-index: -1;
-    position: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #F0EFEA;
 }
 
 .parent{
@@ -116,11 +117,10 @@ a {
     height: min(40vh,40vh);
     color: #BCC1C9;
     font-size: min(3vh,3vw);
-    cursor: pointer;
 }
 
 /* Masih kendala di output*/
-#output {
+#project-image-output {
     height: min(35vh,35vh);
     object-fit: cover;
     object-position: right;
@@ -143,7 +143,7 @@ a {
 
 
 
-#project-name-input{
+#project-name-output{
     outline: none;
     display:flex;
     justify-content: center;
@@ -178,7 +178,7 @@ a {
     padding-bottom: min(5vw,5vh);
 }
 
-#project-target-input {
+#project-target-output {
     height: auto;
     width: min(60vh,40vw);
     outline: none;
@@ -187,13 +187,14 @@ a {
     border: none;
     font-size: min(2.5vh,2.5vw);
     font-weight: 700;
+    color: #4D5157;
 }
 
 .project_about {
-    height: auto;
+    height: 100%;
 }
 
-/* #input-project-about {
+#project-about-output {
     height: auto;
     width: min(60vh,40vw);
     outline: none;
@@ -202,16 +203,17 @@ a {
     border: none;
     font-size: min(2.5vh,2.5vw);
     font-weight: 700;
-} */
+} 
 
-#project-description-input {
+#project-about-output {
     resize: none;
     background-color: none;
     outline: none;
     background: #D9D9D9;
     border: none;
     font-size: min(2.5vh,2.5vw);
-    font-weight: 700;   
+    font-weight: 700;
+    color: #4D5157;
 }
 
 .category{
@@ -221,7 +223,7 @@ a {
     justify-content: center;
 }
 
-#project-category-select {
+#project-category-output {
     height: min(4vh,4vw);
     width: min(40vh,40vw);
     background-color:transparent;
@@ -230,30 +232,50 @@ a {
     color: #00CCD2;
     font-weight: 700;
     font-size: min(2.5vh,2.5vw);
-    cursor: pointer;
     border: solid;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.Submit {
+#Button {
     display: flex;
-    align-items: end;
+    flex-direction: row;
     justify-content: flex-end;
+    align-items: flex-end;
     align-content: flex-end;
-    -ms-flex-align: end;
-    padding: min(4vh,4vw);
 }
 
-#submit_button{
+#project-feedback {
+    display: flex;
+    color: #00CCD2;
+    font-size: min(3vh,3vw);
+    background-color: transparent;
+    border: none;
+    border-radius: 15px;
+    width: min(25vh,25vw);
+    height: min(7vh,7vw);
+    font-weight: 700;
+    border: solid;
+    align-items: center;
+    justify-content: center;
+    margin-right: min(3vh,3vw);
+    margin-bottom: min(3vh,3vw);
+}
+
+#project-fund {
+    align-items: center;
+    justify-content: center;
+    display: flex;
     color:white;
     font-size: min(3vh,3vw);
     background-color: #00CCD2;
     border: none;
     border-radius: 15px;
-    width: min(20vh,20vw);
+    width: min(25vh,25vw);
     height: min(7vh,7vw);
     font-weight: 700;
-    cursor: pointer;
+    margin-bottom: min(3vh,3vw);
+    margin-right: min(5vh,5vw);
 }
-
 
