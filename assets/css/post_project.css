@@ -48,7 +48,7 @@ a {
     position: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #1E1E1E;
+    background-color: #F0EFEA;
 }
 
 .parent{
@@ -138,11 +138,12 @@ a {
     height: min(10vh,10vw);
     color: #BCC1C9;
     font-size: min(2vh,2vw);
+    cursor:text
 }
 
 
 
-#input-project-name-box {
+#project-name-input{
     outline: none;
     display:flex;
     justify-content: center;
@@ -177,7 +178,7 @@ a {
     padding-bottom: min(5vw,5vh);
 }
 
-#input-project-target {
+#project-target-input {
     height: auto;
     width: min(60vh,40vw);
     outline: none;
@@ -192,7 +193,7 @@ a {
     height: 100%;
 }
 
-#input-project-about {
+/* #input-project-about {
     height: auto;
     width: min(60vh,40vw);
     outline: none;
@@ -201,6 +202,17 @@ a {
     border: none;
     font-size: min(2.5vh,2.5vw);
     font-weight: 700;
+} */
+
+#project-description-input {
+    resize: none;
+    background-color: none;
+    outline: none;
+    background: #D9D9D9;
+    border: none;
+    font-size: min(2.5vh,2.5vw);
+    font-weight: 700;
+    ;
 }
 
 .category{
@@ -210,7 +222,7 @@ a {
     justify-content: center;
 }
 
-#category_select {
+#project-category-select {
     height: min(4vh,4vw);
     width: min(40vh,40vw);
     background-color:transparent;
@@ -244,54 +256,3 @@ a {
     cursor: pointer;
 }
 
-
-/*
-.upload{
-    display: flex;
-    align-content: center;
-}
-
-.upload_project{
-    background: #D9D9D9;
-    padding-left: min;
-    position: relative;
-    display: flex;
-    margin-left:  min(7vh, 7vw);
-    /* width: min(150vh, 150vw); height: min(100vh, 100vw);    */
- 
- /*
-    width: 1224px ;
-    height: 950px;
-    border-radius: 20px;
-    direction: row;
-}
-
-#backButton {
-    background-color: #00ccd2;
-    border-radius: 100%;
-    border: none;
-    width: min(7vh, 7vw); height: min(7vh, 7vw);    
-    text-align: center;
-    /* size: 5px;*/
-   
-/*   
-    align-items: center;
-    align-content: center;
-    max-width: 100%; 
-    cursor: pointer;
-    position: relative;
-    display: flex;
-}
-
-#head{
-    padding: 30px;
-    font-weight: 700;
-    font-size: 37px;
-    color: #00CCD2;
-    border-bottom: 100px;
-    border-color: black;
-    border: 100px;
-    max-height: 100px;
-}
-
-*/
