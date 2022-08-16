@@ -1,0 +1,157 @@
+/* miriam-libre-regular - latin */
+@font-face {
+    font-family: 'Miriam Libre';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/miriam-libre-v13-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../font/miriam-libre-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/miriam-libre-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../font/miriam-libre-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../font/miriam-libre-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../font/miriam-libre-v13-latin-regular.svg') format('svg'); /* Legacy iOS */
+  }
+  body {
+    background-color: #4D5157;
+  }
+  
+  a {
+  color: inherit;
+  text-decoration: inherit; 
+  }
+  .upimage{
+  width: 100%; height: 484.36px; top: 0px; left: 0px;
+  background-image: url("../img/prof_pic.png");
+  z-index: -5;
+  position: absolute;
+  background-repeat: no-repeat;
+  }
+  
+  .clickable {
+  cursor: pointer;
+  }
+  
+  /* button */
+  #backButton{
+  border-radius: 100%;
+  align-items: center;
+  align-content: center;
+  background-color: #00ccd2;
+  border: none;
+  width: min(8vh,8vw);
+  height: min(8vh,8vw);
+  }
+  
+  .middleimg{
+  width: 100%; height: 100%; top: 392px; left: 0px;
+  background-image: url("../img/Rectangleprof.png");
+  z-index: -5;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #D8D8D8;
+  }
+  
+  .content-container{
+      width: 90vw;
+      height: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 10vh;
+  }
+  .left-container{
+      width: 30%;
+      height: 100%;
+      min-width: 300px;
+  }
+  
+  .right-container{
+      width: 66%;
+      height: 100%;
+  }
+  /* USER PROFILE STYLING */
+  .user-container{
+      width: 100%; height: 150vh;
+      position: relative;
+  }
+  
+  .user-top-side{
+      width: 100%; height: 32%;
+      position: absolute; top: 0;
+  }
+  
+  .user-information{
+      z-index: 10; 
+      width: 100%; 
+      display: flex; flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      position: absolute; top: 13%;
+  }
+  
+  .user-profpic{
+      border-radius: 50%;
+      background-color: white;
+      z-index: 100;
+  }
+  
+  .wh14{
+      width: 40vh; height: 40vh;
+  }
+  
+  .wh6{
+      width: 8vh; height: 8vh;
+  }
+  
+  .user-display-name{
+      font-weight: bold;
+      color: #00CCD2;
+      text-align: center;
+      margin-top: 2%;
+      font-size: min(5vh,5vw);
+  }
+  
+  .user-username{
+      font-size: min(2.5vh, 2.5vw);
+  }
+  
+  /* POST A PROJECT SECTION */
+  .post-project-section{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      width: 100%;
+  }
+  
+  .post-project-container{
+      width: 85%; height: 12vh;
+      background-color: #D8D8D8;
+      display: flex; gap: 3%;
+      align-items: center;
+      padding: 0 5%;
+      border-radius: 20px;
+      min-width: 650px;
+  }
+  
+  .post-project-button{
+      color: #f5f5f5;
+      background-color: #6DD3CF;
+      height: 7vh; width: calc(100% - 3% - 8vh);
+      border-radius: 100px;
+      border: solid white 0.4vh;
+      font-size: min(2.5vh, 2.5vw);
+      font-weight: bold;
+      box-shadow: 0 10px 10px rgba(0,0,0,0.25);
+      display: flex;
+      justify-content: center; align-items: center;
+  }
+  
+  .post-project-button:hover{
+      background-color: #6bddd9;
+      color: #ffffff;
+      cursor: pointer;
+  }
+  
