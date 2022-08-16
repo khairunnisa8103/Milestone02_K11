@@ -78,7 +78,7 @@ function renderProjects(projArr, button) {
     document.getElementById('projects-container').innerHTML = projArr.map(proj => 
         `<div class="project">
             <div class="project-desc-container">
-                <a class="project-title underlined clickable" href="../views/feed.html">${proj.title}</a>
+                <a class="project-title underlined clickable" href="../views/project_detail.html">${proj.title}</a>
                 <p class="project-desc">${proj.desc}</p>
             </div>
         </div>`
