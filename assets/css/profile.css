@@ -43,7 +43,7 @@
   }
   
   .middleimg{
-  width: 100%; height: 100%; top: 392px; left: 0px;
+  width: 100%; height: 920px; top: 392px; left: 0px;
   background-image: url("../img/Rectangleprof.png");
   z-index: -5;
   position: absolute;
@@ -123,16 +123,14 @@
       justify-content: space-between;
       align-items: center;
   
-      width: 100%;
+      width: 10%;
   }
   
   .post-project-container{
-      width: 30%; height: 76vh;
-      display: flex; gap: 3%;
-      align-items: center;
-      padding: 0 60%;
-      border-radius: 20px;
-      min-width: 650px;
+      width: 0%; height: 0vh;
+      display: inline; gap: 3%;
+      align-items: left;
+      padding: 0% 500%;
   }
   
   .post-project-button{
