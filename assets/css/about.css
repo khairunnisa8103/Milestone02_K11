@@ -29,6 +29,7 @@ body {
     background-color: #F0EFEA;
     background-image: url("../img/background.png");
     background-size: 100vw 100vh;
+    overflow-x: hidden;
 }
 
 
