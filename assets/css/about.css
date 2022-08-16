@@ -14,6 +14,26 @@
     /* Legacy iOS */
 }
 
+#btn{
+    margin-top: min(2vh,2vw);
+    margin-left: min(2vh,2vw);
+}
+#img{
+    width: 100%;
+    height: auto;
+}
+
+#backButton{
+    border-radius: 100%;
+    align-items: center;
+    align-content: center;
+    background-color: #00ccd2;
+    border: none;
+    width: min(8vh,8vw);
+    height: min(8vh,8vw);
+    cursor: pointer;
+}
+
 * {
     margin: 0;
     padding: 0;
