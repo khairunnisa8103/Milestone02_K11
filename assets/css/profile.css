@@ -51,3 +51,113 @@ background-size: cover;
 background-repeat: no-repeat;
 background-color: #D8D8D8;
 }
+
+.content-container{
+    width: 90vw;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10vh;
+}
+.left-container{
+    width: 30%;
+    height: 100%;
+    min-width: 300px;
+}
+
+.right-container{
+    width: 66%;
+    height: 100%;
+}
+/* USER PROFILE STYLING */
+.user-container{
+    background-color: #D8D8D8;
+    min-height: 200px;
+    width: 100%; height: 40vh;
+    border-radius: 20px;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.user-top-side{
+    width: 100%; height: 32%;
+    background-color: #88D4D1;
+    position: absolute; top: 0;
+}
+
+.user-information{
+    z-index: 10; 
+    width: 100%; 
+    display: flex; flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute; top: 15%;
+}
+
+.user-profpic{
+    border-radius: 50%;
+    background-color: white;
+    z-index: 10;
+    width: 14vh; height: 14vh;
+}
+
+.wh14{
+    width: 14vh; height: 14vh;
+}
+
+.wh6{
+    width: 8vh; height: 8vh;
+}
+
+.user-display-name{
+    font-weight: bold;
+    color: #00CCD2;
+    text-align: center;
+    margin-top: 5%;
+    font-size: min(5vh,5vw);
+}
+
+.user-username{
+    font-size: min(2.5vh, 2.5vw);
+}
+
+/* POST A PROJECT SECTION */
+.post-project-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+.post-project-container{
+    width: 85%; height: 12vh;
+    background-color: #D8D8D8;
+    display: flex; gap: 3%;
+    align-items: center;
+    padding: 0 5%;
+    border-radius: 20px;
+    min-width: 650px;
+}
+
+.post-project-button{
+    color: #f5f5f5;
+    background-color: #6DD3CF;
+    height: 7vh; width: calc(100% - 3% - 8vh);
+    border-radius: 100px;
+    border: solid white 0.4vh;
+    font-size: min(2.5vh, 2.5vw);
+    font-weight: bold;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.25);
+    display: flex;
+    justify-content: center; align-items: center;
+}
+
+.post-project-button:hover{
+    background-color: #6bddd9;
+    color: #ffffff;
+    cursor: pointer;
+}
