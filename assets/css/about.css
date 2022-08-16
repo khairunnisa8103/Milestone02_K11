@@ -27,7 +27,7 @@ body {
     width: 100vw;
     margin: auto;
     background-color: #F0EFEA;
-    background-image: url("../img/background_about.png");
+    background-image: url("../img/background.png");
     background-size: 100vw 100vh;
 }
 
@@ -88,4 +88,6 @@ h2 {
     margin: 0vh 5vw;
     font-size: min(3.03vh, 2.15vw);
     text-align: justify;
+    /* background-color: #efede0; */
+    padding: 1vh 1vw;
 }
