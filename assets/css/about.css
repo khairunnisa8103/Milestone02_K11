@@ -37,7 +37,6 @@ body {
 .wrapper-solusi {
     width: 100%;
     padding: 5vh 5vw 7vh;
-    margin: auto;
     display: flex;
 }
 
@@ -50,6 +49,7 @@ body {
     opacity: .5;
     border-radius: 5%;
     padding: 2%;
+    text-align: center;
 }
 
 .solusi:hover {
@@ -66,7 +66,7 @@ h3 {
 .solusi img {
     width: min(11.23vw, 7.98vw);
     height: min(11.23vw, 7.98vw);
-    margin-bottom: 5%;
+    margin-bottom: 3vh;
 }
 
 .solusi p {
@@ -80,11 +80,16 @@ h2 {
     color: #6DD3CF;
     font-size: min(4.49vh, 3.19vw);
     text-align: center;
-    padding-bottom: 1vh;
+    margin-bottom: 3vh;
 }
 
 .latar-belakang {
-    display: flex;
-    padding: 2vh 10vw;
+    margin: 0vh 5vw;
     font-size: min(3.03vh, 2.15vw);
+    text-align: justify;
+    opacity: .5;
+}
+
+.latar-belakang:hover {
+    opacity: 1;
 }
