@@ -14,5 +14,6 @@ Nama, nim, dan kontribusi : <br />
 &nbsp;    7.  Muhammad Fadhil Amri         &nbsp;&nbsp;     16521336               <br />
 &nbsp;    8.  Felisa Aidadora Darmawan     &nbsp;&nbsp;     16521375               <br />
 &nbsp;    9.  Razzan Daksana Yoni          &nbsp;&nbsp;     16521378   FrontEnd(post_project,project_detail,home) <br />
-&nbsp;    10. Khairunnisa Hurun 'Iin       &nbsp;&nbsp;     16521521               <br />
-&nbsp;    11. Syasya Umaira                &nbsp;&nbsp;     16521537               <br />   
+&nbsp;    10. Muhammad Mumtaz              &nbsp;&nbsp;     16521488               <br />
+&nbsp;    11. Khairunnisa Hurun 'Iin       &nbsp;&nbsp;     16521521               <br />
+&nbsp;    12. Syasya Umaira                &nbsp;&nbsp;     16521537               <br />
