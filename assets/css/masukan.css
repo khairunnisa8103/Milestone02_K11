@@ -9,7 +9,7 @@
 body {
     min-height: 100vh;
     background: grey;
-    background-image: url("../img/background2.png");
+    background-image: url("../img/masukan.png");
     background-repeat: no-repeat, repeat;
     background-size: cover;
     background-color: black;
@@ -47,7 +47,7 @@ h1 {
     width: 100%;
 }
 
-.loginbtn {
+.button {
     height: 45px;
     width: 10%;
     border: none;
@@ -60,11 +60,11 @@ h1 {
     right: 20px;
 }
 
-.loginbtn:hover {
+.button:hover {
     background-position: right;
 }
 
-.loginbtn2 {
+.button2 {
     height: 45px;
     width: 10%;
     border: none;
