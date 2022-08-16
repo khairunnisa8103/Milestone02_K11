@@ -168,7 +168,7 @@ input {
     border-radius: 100px;
     background-color: gray;
     padding: 1.5em;
-    margin-right: 0.5em;
+    margin: 0 0.5em auto 0;
 }
 
 .unread-content-count {
@@ -247,6 +247,37 @@ input {
     align-items: center;
 }
 
+#message-instances {
+    overflow: auto;
+}
+
 #message-response input {
     color: white;
+}
+
+
+.message-instance-container {
+    max-width: 80%;
+    flex: 1;
+    margin-right: auto;
+    margin-top: 0.5em;
+}
+
+.message-instance-container-user {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.message-instance {
+    align-items: center;
+    background-color: var(--dark-grey);
+    border-radius: 30px;
+    color: white;
+    font-size: 0.8em;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.message-instance-user {
+    background-color: var(--blue);
 }
