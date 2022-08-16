@@ -66,10 +66,6 @@ input {
     background: none;
 }
 
-#message-unread {
-    display: none;
-}
-
 .search-icon {
     background-image: url('../img/feed_searchlogo.png');
     width: 1.5em;
@@ -80,19 +76,24 @@ input {
     background-size: 100%;
 }
 
+.message {
+    padding: 1em;
+}
+
 .profile-icon {
     border-radius: 100px;
     background-color: gray;
     padding: 1.5em;
+    margin-right: 0.5em;
 }
 
 .unread-content-count {
-    visibility: hidden;
     position: relative;
     aspect-ratio: 1 / 1;
     border-radius: 100px;
     background-color: rgba(0,204,210,255);
     padding: 1em;
+    margin-left: auto;
 }
 
 .center {
