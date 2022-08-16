@@ -11,7 +11,7 @@ Nama, nim, dan kontribusi :
     5.  Addin Munawwar Yusuf            16521280   FrontEnd(feed, search)            
     6.  Wilson Tansil                   16521295   FrontEnd(nominal pembayaran)            
     7.  Muhammad Fadhil Amri            16521336   FrontEnd(About Us)              
-    8.  Felisa Aidadora Darmawan        16521375   Redesign solusi  
+    8.  Felisa Aidadora Darmawan        16521375   Redesign solusi   
     9.  Razzan Daksana Yoni             16521378   FrontEnd(post_project,project_detail,home)
     10. Muhammad Mumtaz                 16521488   FrontEnd(Profile)
     11. Khairunnisa Hurun 'Iin          16521521   Redesign solusi            
