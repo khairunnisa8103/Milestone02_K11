@@ -109,12 +109,12 @@
       font-weight: bold;
       color: #00CCD2;
       text-align: center;
-      margin-top: 2%;
+      margin-top: 1%;
       font-size: min(5vh,5vw);
   }
   
   .user-username{
-      font-size: min(2.5vh, 2.5vw);
+      font-size: min(3.5vh, 3.5vw);
   }
   
   /* POST A PROJECT SECTION */
@@ -127,11 +127,10 @@
   }
   
   .post-project-container{
-      width: 85%; height: 12vh;
-      background-color: #D8D8D8;
+      width: 30%; height: 76vh;
       display: flex; gap: 3%;
       align-items: center;
-      padding: 0 5%;
+      padding: 0 60%;
       border-radius: 20px;
       min-width: 650px;
   }
@@ -139,10 +138,10 @@
   .post-project-button{
       color: #f5f5f5;
       background-color: #6DD3CF;
-      height: 7vh; width: calc(100% - 3% - 8vh);
+      height: 7vh; width: 40vh;
       border-radius: 100px;
-      border: solid white 0.4vh;
-      font-size: min(2.5vh, 2.5vw);
+      border: solid white 0.9vh;
+      font-size: min(5vh, 5vw);
       font-weight: bold;
       box-shadow: 0 10px 10px rgba(0,0,0,0.25);
       display: flex;
