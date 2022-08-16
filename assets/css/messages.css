@@ -21,6 +21,7 @@
 
 :root {
     --blue: rgba(0,204,210,255);
+    --dark-grey: rgba(77,81,87,255);
 }
 
 body {
@@ -146,6 +147,10 @@ input {
     color: white;
 }
 
+.message > .flex {
+    padding: 3px 10px;
+}
+
 .message-active {
     background-color: rgba(142,144,148,255);
 }
@@ -207,6 +212,41 @@ input {
     padding: 0.5em 1em;
 }
 
+#active-message {
+    background-color: rgba(142,145,148,255);
+    height: 100%;
+}
+
+#message-contact {
+    background-color: var(--dark-grey);
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 #message-contact-info {
-    background-color: rgba(77,81,87,255);
+    position: relative;
+    aspect-ratio: 1 / 1;
+    border-radius: 100px;
+    background-color: var(--blue);
+    padding: 1.5em;
+    margin-left: auto;
+    font-weight: 800;
+}
+
+#message-response-container {
+    background-color: var(--dark-grey);
+    margin-top: auto;
+}
+
+#message-response {
+    margin: 0.8em 2em;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    align-items: center;
+}
+
+#message-response input {
+    color: white;
 }
