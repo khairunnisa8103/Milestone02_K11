@@ -1,0 +1,258 @@
+/* miriam-libre-regular - latin */
+@font-face {
+    font-family: 'Miriam Libre';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/miriam-libre-v13-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../font/miriam-libre-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/miriam-libre-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../font/miriam-libre-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../font/miriam-libre-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../font/miriam-libre-v13-latin-regular.svg') format('svg'); /* Legacy iOS */
+  }
+.h1 {
+    font-size: min(2.8vw,2.8vh);
+    font-weight: 700;
+    color: #6DD3CF;   
+}
+
+.h2 {
+    font-size: min(2.5vh,2.5vw);
+    font-weight: 700;
+    color:#BCC1C9
+}
+
+* {
+    margin:0; padding:1;
+    box-sizing:border-box;
+    text-decoration: none;
+    font-family: 'Miriam Libre', sans-serif;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.backgroundIMG{
+    width: 100vw; height: 100vh;
+    background-image: url("../img/background_pp.png");
+    z-index: -1;
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #F0EFEA;
+}
+
+.parent{
+    display: flex;
+    padding: 2%;
+}
+
+/* button */
+#backButton{
+    border-radius: 100%;
+    align-items: center;
+    align-content: center;
+    background-color: #00ccd2;
+    border: none;
+    width: min(8vh,8vw);
+    height: min(8vh,8vw);
+}
+
+#img{
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    margin-top: 0px;
+    background: #D9D9D9;
+    flex-direction: column-reverse;
+    border-radius: 20px;
+}
+
+/* header */
+.head_of_content {
+    font-size: min(4.5vh,4.5vw);
+    font-weight: 700;
+    color: #00CCD2;
+    padding: min(4vh, 4vw);
+    padding-left: (2vh,2vw);
+    align-items: left;
+    border-bottom: 1px solid #4D5157;
+}
+
+/*upload_project*/
+.project{
+    margin-top: min(5vh,5vw);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.project_file {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 58%;
+    background: #D8F2FF;
+    border-radius: 7px 7px 0px 0px;
+    height: min(40vh,40vh);
+    color: #BCC1C9;
+    font-size: min(3vh,3vw);
+    cursor: pointer;
+}
+
+/* Masih kendala di output*/
+#output {
+    height: min(35vh,35vh);
+    object-fit: cover;
+    object-position: right;
+}
+
+
+.project_name{
+    display: flex;
+    background: #3F585F;
+    border-radius: 0px 0px 7px 7px;
+    width: 58%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: min(10vh,10vw);
+    color: #BCC1C9;
+    font-size: min(2vh,2vw);
+    cursor:text
+}
+
+
+
+#project-name-input{
+    outline: none;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    background-color: transparent;
+    background: #3F585F;
+    color: #BCC1C9;
+    font-size: min(2vh,2vw);
+    font-weight: 700;
+    width: min(50vh,40vw);
+    border: none;
+    border-style: none;
+}
+
+.project_detail {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.project_description {
+    width: 50%;
+    height: 100%;
+    padding: min(5vh,5vw)
+}
+
+.project_target {
+    height: 100%;
+    padding-bottom: min(5vw,5vh);
+}
+
+#project-target-input {
+    height: auto;
+    width: min(60vh,40vw);
+    outline: none;
+    background-color: none;
+    background: #D9D9D9;
+    border: none;
+    font-size: min(2.5vh,2.5vw);
+    font-weight: 700;
+}
+
+.project_about {
+    height: 100%;
+}
+
+/* #input-project-about {
+    height: auto;
+    width: min(60vh,40vw);
+    outline: none;
+    background-color: none;
+    background: #D9D9D9;
+    border: none;
+    font-size: min(2.5vh,2.5vw);
+    font-weight: 700;
+} */
+
+#project-description-input {
+    resize: none;
+    background-color: none;
+    outline: none;
+    background: #D9D9D9;
+    border: none;
+    font-size: min(2.5vh,2.5vw);
+    font-weight: 700;
+    ;
+}
+
+.category{
+    padding: min(5vh,5vw);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#project-category-select {
+    height: min(4vh,4vw);
+    width: min(40vh,40vw);
+    background-color:transparent;
+    border-radius: 15px;
+    font-weight: 700;
+    color: #00CCD2;
+    font-weight: 700;
+    font-size: min(2.5vh,2.5vw);
+    padding-left: min(2vh,2vw);
+    cursor: pointer;
+}
+
+.Submit {
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    align-content: flex-end;
+    -ms-flex-align: end;
+    padding: min(4vh,4vw);
+}
+
+#submit_button{
+    color:white;
+    font-size: min(3vh,3vw);
+    background-color: #00CCD2;
+    border: none;
+    border-radius: 15px;
+    width: min(20vh,20vw);
+    height: min(7vh,7vw);
+    font-weight: 700;
+    cursor: pointer;
+}
+

@@ -1,0 +1,90 @@
+/* miriam-libre-regular - latin */
+
+@font-face {
+    font-family: 'Miriam Libre';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/miriam-libre-v13-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../font/miriam-libre-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/miriam-libre-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../font/miriam-libre-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../font/miriam-libre-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../font/miriam-libre-v13-latin-regular.svg') format('svg');
+    /* Legacy iOS */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Miriam Libre', sans-serif;
+    list-style: none;
+}
+
+body {
+    width: 100vw;
+    margin: auto;
+    background-color: #F0EFEA;
+    background-image: url("../img/background_about.png");
+    background-size: 100vw 100vh;
+}
+
+
+/* solusi */
+
+.wrapper-solusi {
+    width: 100%;
+    padding: 5vh 5vw 7vh;
+    margin: auto;
+    display: flex;
+}
+
+.content {
+    text-align: center;
+}
+
+.solusi {
+    width: 33.3vw;
+    opacity: .5;
+    border-radius: 5%;
+    padding: 2%;
+}
+
+.solusi:hover {
+    opacity: 1;
+    background-color: #efede0;
+}
+
+h3 {
+    color: #6DD3CF;
+    font-size: min(3.42vh, 2.43vw);
+    height: 20%;
+}
+
+.solusi img {
+    width: min(11.23vw, 7.98vw);
+    height: min(11.23vw, 7.98vw);
+    margin-bottom: 5%;
+}
+
+.solusi p {
+    font-size: min(3.03vh, 2.15vw);
+}
+
+
+/*Latar Belakang*/
+
+h2 {
+    color: #6DD3CF;
+    font-size: min(4.49vh, 3.19vw);
+    text-align: center;
+    padding-bottom: 1vh;
+}
+
+.latar-belakang {
+    display: flex;
+    padding: 2vh 10vw;
+    font-size: min(3.03vh, 2.15vw);
+}

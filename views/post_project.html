@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="../assets/img/logo_dark.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/post_project.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Findanziare | Post Project</title>
+</head>
+<body>
+    <div class="backgroundIMG"></div>
+    <div class="blank_space"></div>
+    <div class="parent">
+        <div>
+            <a href="../views/feed.html">
+                <button class="clickable" id="backButton">
+                    <img src="../assets/img/Arrow_alt_left.png" id="img">
+                </button>
+            </a>
+        </div>
+        <div class="container"> 
+            <div class="head_of_content">
+                Post a Project
+            </div>
+            <form class="project" action="#" class="projectData">
+                <div class="project_file">
+                        <input type="file" accept="image/*" onchange="loadFile(event)" id="file-input" form="projectData" hidden>
+                        <div class="img-container">
+                            <img id="output" alt="Masukkan Gambar...">
+                        </div>
+                    <section class="progress-area"></section>
+                </div>
+                <div class="project_name">
+                        <div class="input-project-name-box">
+                            <input type="text" placeholder="Masukkan nama project......" id="project-name-input" form="projectData">
+                        </div>
+                </div>
+            </form>
+            <form onsubmit="myfunc(event)" class="projectData">
+            <div class="project_detail">
+                <div class="project_description">
+                    <div class="project_target">
+                        <label class="h1">Target Pendanaan&ensp;:</label>
+                            &ensp;&ensp;&ensp;&emsp;
+                            <input type="text" placeholder="Masukkan target pendanaan..." id="project-target-input">
+                    </div>
+                    <div class="project_about">
+                        <label class="h1">Deskripsi Projek&ensp;&ensp;:</label>
+                            <textarea rows="6" cols="60" name="description" form="projectData" id="project-description-input" placeholder="Masukkan deskripsi project..."></textarea>
+                    </div>
+                </div>
+                <div class="category">
+                    <select id="project-category-select" form="projectData">
+                        <option value="">Kategori</option>
+                        <option value="Pertanian">Pertanian</option>
+                        <option value="Produksi Bahan Mentah">Produksi Bahan Mentah</option>
+                        <option value="Manufaktur">Manufaktur</option>
+                        <option value="Konstruksi">Konstruksi</option>
+                        <option value="Transportasi">Transportasi</option>
+                        <option value="Komunikasi">Komunikasi</option>
+                        <option value="Perdagangan Besar/Kecil">Perdagangan Besar/Kecil</option>
+                        <option value="Finansial">Finansial</option>
+                        <option value="Jasa">Jasa</option>
+                    </select>
+                </div>
+            </div>
+            <div class="Submit">
+                <input type="submit" value="Submit" id="submit_button" form="project Data">
+            </div>
+            </form>
+        </div>
+    </div>
+    <script src="../scripts/post_project.js"></script>
+</body>
+</html>
