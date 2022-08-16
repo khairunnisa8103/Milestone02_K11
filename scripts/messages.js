@@ -18,16 +18,7 @@ const active_messsage = document.getElementById("active-message")
 const message_ids = document.getElementById("message-contact-id").getElementsByTagName("span");
 const message_name = message_ids[0];
 const message_username = message_ids[1];
-
-/* 
-<div class="message-instance-container flex-container">
-    <span class="profile-icon"></span>
-    <div class="message-instance flex-container"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit omnis consectetur cumque doloremque? Obcaecati, similique voluptatum. Fugit, maxime nesciunt! Nesciunt est ad tempore inventore expedita facilis ex corrupti, ea iste.</p></div>
-</div>
-<div class="message-instance-container-user message-instance-container flex-container">
-    <div class="message-instance message-instance-user flex-container"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit omnis consectetur cumque doloremque? Obcaecati, similique voluptatum. Fugit, maxime nesciunt! Nesciunt est ad tempore inventore expedita facilis ex corrupti, ea iste.</p></div>
-</div> 
-*/
+const send_message_form = document.getElementById("message-response").getElementsByTagName("form")[0];
 
 const generate_message_instance = (data) => {
     const container = document.createElement("div");
@@ -77,17 +68,39 @@ const activate_chat = (chat) => {
     const active_instance = CHATS_DATA[active_username];
     const active_name = active_instance["name"];
     const active_message_instances = active_instance["messages"];
+    const last_message = chat.getElementsByClassName("display-chat")[0];
 
     message_username.innerText = active_username;
     message_name.innerText = active_name;
 
-    for(const message_instance of active_message_instances){
-        generate_message_instance(message_instance);
+    for(const message of active_message_instances){
+        const message_instance = generate_message_instance(message);
+        message_instances.appendChild(message_instance);
     };
     
     inactive_messsage.classList.add("void");
     active_messsage.classList.remove("void");
 
+    send_message_form.addEventListener("submit", (event)=>{
+        const input_value = send_message_form.getElementsByTagName("input")[0].value;
+        const data = {
+            "is_author_self": true,
+            "content": input_value
+        };
+        const message_instance = generate_message_instance(data);
+        
+        CHATS_DATA[active_username]["messages"].push(data);
+        message_instances.appendChild(message_instance);
+
+        if(input_value.length > 26){
+            last_message.innerText = input_value.substring(0, 26) + "...";
+        }else{
+            last_message.innerText = input_value;
+        }
+
+        send_message_form.reset();
+        event.preventDefault();
+    });
 }
 
 for(const chat_thumbnail of chats_thumbnail){
