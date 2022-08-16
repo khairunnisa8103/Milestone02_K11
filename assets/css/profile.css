@@ -1,73 +1,53 @@
 /* miriam-libre-regular - latin */
 @font-face {
-    font-family: 'Miriam Libre';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../font/miriam-libre-v13-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../font/miriam-libre-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../font/miriam-libre-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../font/miriam-libre-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../font/miriam-libre-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../font/miriam-libre-v13-latin-regular.svg') format('svg'); /* Legacy iOS */
-  }
-  body {
-    background-color: #4D5157;
-  }
-  
-  a {
-  color: inherit;
-  text-decoration: inherit; 
-  }
-  .upimage{
-  width: 1804.81px; height: 484.36px; top: 0px; left: 0px;
-  background-image: url("../img/prof_pic.png");
-  z-index: -1;
-  position: fixed;
-  background-repeat: no-repeat;
-  }
-  
-  .clickable {
-  cursor: pointer;
-  }
-  
-  /* button */
-  #backButton{
-  border-radius: 100%;
-  align-items: center;
-  align-content: center;
-  background-color: #00ccd2;
-  border: none;
-  width: min(8vh,8vw);
-  height: min(8vh,8vw);
-  }
-  
-  .middleimg{
-  width: 100%; height: 632px; top: 392px; left: 0px;
-  background-image: url("../img/Rectangleprof.png");
-  z-index: -1;
-  position: absolute;
-  background-size: cover;
-  background-repeat: no-repeat;
-  }
-  .right-container{
-  width: 66%;
-  height: 100%;
-  }
-  .post-project-button{
-  color: #f5f5f5;
-  background-color: #6DD3CF;
-  height: 7vh; width: calc(100% - 3% - 70vh);
-  border-radius: 100px;
-  border: solid white 0.4vh;
-  font-size: min(2.5vh, 2.5vw);
-  font-weight: bold;
-  box-shadow: 0 10px 10px rgba(0,0,0,0.25);
-  display: flex;
-  justify-content: center; align-items: center;
-  }
-  
-  .right-container{
-  width: 66%;
-  height: 100%;
-  }
+  font-family: 'Miriam Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/miriam-libre-v13-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../font/miriam-libre-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/miriam-libre-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/miriam-libre-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../font/miriam-libre-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../font/miriam-libre-v13-latin-regular.svg') format('svg'); /* Legacy iOS */
+}
+body {
+  background-color: #4D5157;
+}
+
+a {
+color: inherit;
+text-decoration: inherit; 
+}
+.upimage{
+width: 1804.81px; height: 484.36px; top: 0px; left: 0px;
+background-image: url("../img/prof_pic.png");
+z-index: -1;
+position: fixed;
+background-repeat: no-repeat;
+}
+
+.clickable {
+cursor: pointer;
+}
+
+/* button */
+#backButton{
+border-radius: 100%;
+align-items: center;
+align-content: center;
+background-color: #00ccd2;
+border: none;
+width: min(8vh,8vw);
+height: min(8vh,8vw);
+}
+
+.middleimg{
+width: 100%; height: 632px; top: 392px; left: 0px;
+background-image: url("../img/Rectangleprof.png");
+z-index: -1;
+position: absolute;
+background-size: cover;
+background-repeat: no-repeat;
+background-color: #D8D8D8;
+}
