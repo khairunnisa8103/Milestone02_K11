@@ -1,0 +1,148 @@
+body {
+    background-image: url("../img/Rectangle 4213.png");
+    background-size: cover;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 1024px;
+    width: 1440px;
+    margin: 10px auto;
+}
+
+.First-Ellipse {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -10;
+}
+
+.Second-Ellipse {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -10;
+}
+
+header {
+    background-color: #00CCD2;
+    border-radius: 100%;
+    width: 62px;
+    height: 64px;
+    float: left;
+}
+
+.arrow-left {
+    padding-left: 5px;
+}
+
+.logo-splash {
+    margin: 0 auto;
+    /* border: solid; */
+    width: 429px;
+}
+
+.splash {
+    width: 429px;
+    height: 429px;
+}
+
+.logo-picture {
+    /* margin: 0 auto; */
+    /* border: solid; */
+    width: 200px;
+    margin: -340px auto;
+}
+
+.logo {
+    width: 200px;
+    height: 198.79px;
+}
+
+.logo-container {
+    z-index: 10;
+}
+
+.main-box {
+    width: 1386px;
+    height: 634px;
+    background-color: #F0EFEA;
+    margin: 270px auto;
+    border-radius: 15px;
+}
+
+.content-txt {
+    width: 691px;
+    height: 70px;
+    margin: 0px auto;
+    padding-top: 150px;
+}
+
+.content-txt p {
+    font-family: "Miriam Libre";
+    font-weight: bold;
+    font-size: 53px;
+    text-align: center
+}
+
+.box-input {
+    /* border: solid; */
+    width: 1062px;
+    height: 140px;
+    border-style: none;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+
+.input-box {
+    margin: 100px auto;
+    /* border: solid; */
+    width: 1062px;
+    /* font-size: 21px; */
+}
+
+.button-submit {
+    float: right;
+    background-color: #00CCD2;
+    width: 279px;
+    height: 71px;
+    border-radius: 25px;
+    margin-top: -50px;
+    margin-right: 50px;
+    box-shadow: 0 7px white;
+}
+
+.button {
+    color: white;
+    font-family: "Miriam Libre";
+    font-weight: bold;
+    text-decoration: none;
+    /* padding-left: 60px; */
+    text-align: center;
+    /* border: solid; */
+    /* margin-left: 50px; */
+    font-size: 21px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.button-submit:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+::placeholder {
+    /* padding-left: 10px; */
+    font-size: 21px;
+}
+
+input {
+    font-size: 21px;
+    padding-left: 20px;
+}
