@@ -1,0 +1,202 @@
+body {
+    background-image: url("../img/Rectangle 4213.png");
+    background-size: cover;
+}
+
+.container {
+    margin: 0 auto;
+    height: 1024px;
+}
+
+.left-icon {
+    border-radius: 100%;
+    background-color: #00CCD2;
+    width: 62px;
+    height: 64px;
+    float: left;
+    margin: 10px
+}
+
+.arrow {
+    padding-left: 5px;
+}
+
+.right-logo {
+    float: left;
+    width: 273px;
+    height: 60px;
+    padding-left: 80px;
+}
+
+.logo {
+    color: #6DD3CF;
+    font-family: "Miriam Libre";
+    font-size: 46px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.background-circle1 {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -10;
+}
+
+.circle1 {
+    width: 500px;
+    height: 500px;
+}
+
+.water-splash {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.splash {
+    width: 629px;
+    height: 629px;
+}
+
+.findaziare-logo {
+    position: absolute;
+    top: 280px;
+    left: 210px;
+    border: none;
+    float: left;
+}
+
+.findaziare {
+    width: 300px;
+    height: 298.79px;
+}
+
+.main-part {
+    width: 360px;
+    height: 803px;
+    background-color: #D8D8D8;
+    border-radius: 40px;
+    float: left;
+    /* position: relative; */
+    z-index: 10;
+    /* top: 100px;
+    left: 100px; */
+    margin-left: 650px;
+}
+
+
+/* .upper{
+    position: absolute;
+    left: 10px;
+} */
+
+.circle-small1 {
+    border-radius: 100%;
+    background-color: #00CCD2;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+
+.circle-small2 {
+    border-radius: 100%;
+    background-color: #00CCD2;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: -20px;
+    left: 300px;
+}
+
+.txt-pembayaran {
+    position: relative;
+    left: 120px;
+}
+
+.txt-pembayaran span {
+    font-family: "Miriam Libre";
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.underline {
+    /* position: relative; */
+    border-bottom: 1px solid;
+    /* top: 60px; */
+}
+
+.txt-second {
+    /* position: relative; */
+    /* top: 90px; */
+    /* left: 70px */
+    margin: 20px auto;
+}
+
+.txt-second p {
+    text-align: center;
+    font-family: "Miriam Libre";
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.boxes {
+    border-radius: 25px;
+    background-color: #D8F2FF;
+    /* position: relative; */
+    margin: 30px auto;
+    /* top: 110px; */
+    width: 265px;
+    height: 58px;
+    /* left: 50px; */
+}
+
+.pointer-right {
+    float: right;
+    margin: 15px 20px;
+}
+
+.submit-input {
+    width: 299px;
+    height: 71px;
+    border-radius: 25px;
+    background-color: #00CCD2;
+    /* position: relative; */
+    /* top: 120px; */
+    /* left: 40px; */
+    margin: 0 auto;
+    border-style: none;
+    box-shadow: 0 7px white;
+}
+
+.submission {
+    color: #FFFFFF;
+    font-family: "Miriam Libre";
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+.submit-input:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.background-circle2 {
+    position: absolute;
+    bottom: -300px;
+    left: 0;
+    z-index: -10;
+}
+
+.circle2 {
+    width: 488.91;
+    height: 488.91;
+}
