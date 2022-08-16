@@ -28,7 +28,7 @@
   }
 
   .middleimg{
-    width: 100%; height: 920px; top: 392px; left: 0px;
+    width: 100%; height: 1500px; top: 392px; left: 0px;
     background-image: url("../img/Rectangleprof.png");
     z-index: -1;
     position: absolute;
@@ -44,6 +44,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #D8D8D8;
+    }
+
+    .proj-img{
+        width: 70%; height: 100%;
+        background-color: #4D5157;
+        border-radius: 20px;
+        position: absolute; top: 836px; left: 15%;
     }
 
   .clickable {
@@ -128,22 +135,22 @@
   }
   
   /* POST A PROJECT SECTION */
-  .post-project-section{
+  .message-section{
       display: flex;
       justify-content: space-between;
       align-items: center;
   
-      width: 10%;
+      width:10%;
   }
   
-  .post-project-container{
+  .message-container{
       width: 0%; height: 0vh;
-      display: inline; gap: 3%;
+      display: inline; gap: 5%;
       align-items: left;
-      padding: 0% 500%;
+      padding: 590% 500%;
   }
   
-  .post-project-button{
+  .message-button{
       color: #f5f5f5;
       background-color: #6DD3CF;
       height: 7vh; width: 40vh;
@@ -156,7 +163,7 @@
       justify-content: center; align-items: center;
   }
   
-  .post-project-button:hover{
+  .message-button:hover{
       background-color: #6bddd9;
       color: #ffffff;
       cursor: pointer;
