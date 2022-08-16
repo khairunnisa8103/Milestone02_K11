@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Messages</title>
+        <link rel="stylesheet" href="../assets/css/messages.css">
+    </head>
+    <body>
+        <main class="flex-container"> 
+            <nav id="message-dashboard" class="flex-container flex-column container">
+                <div id="message-menu" class="flex-container">
+                    <span class="icon arrow-icon"></span>
+                    <span class="flex message-header">Messages</span>
+                    <span class="icon new-message-icon"></span>
+                </div>
+                <div id="message-search-container" class="flex-container container">
+                    <span class="icon search-icon"></span>
+                    <form class="flex" onsubmit="return false">
+                        <input type="text" placeholder="Search messages..." name="search">
+                    </form>
+                </div>
+                <div id="message-unread" hidden><span id="message-unread-count"></span> unread messages</div>
+                <div id="message-list">
+                    <!-- <div class="message flex-container container" username="johnny">
+                        <span class="profile-icon"></span>
+                        <div class="flex flex-container flex-column">
+                            <span class="display-name">John Doe</span>
+                            <span class="display-chat">lorem ipsum dolor sit amet</span>
+                        </div>
+                        <div class="unread-content-count"><span class="center">1</span></div>
+                    </div>
+                     -->
+                </div>
+            </nav>
+            <article id="message-content" class="flex-container flex-column">
+                <div id="inactive-message">
+                    <p class="message-header">Select a message</p>
+                    <span>New message</span>
+                </div>
+                <div id="active-message" class="flex-container flex-column void">
+                    <div id="message-contact" class="flex-container container">
+                        <span class="profile-icon"></span>
+                        <div id="message-contact-id" class="flex flex-container flex-column">
+                            <span class="display-name">John Doe</span>
+                            <span class="display-username">@johnny</span>
+                        </div>
+                        <div id="message-contact-info"><span class="center">i</span></div>
+                    </div>
+                    <div id="message-instances" class="flex-container container flex-column">
+                        
+                    </div>
+                    <div id="message-response-container">
+                        <div id="message-response" class="flex-container container">
+                            <form class="flex">
+                                <input type="text" placeholder="Start a new message..." name="new-message">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+
+        <script type="text/javascript" src="../scripts/messages.js"></script>
+        <script type="text/json" src="../data/messages.json"></script>
+    </body>
+</html>
