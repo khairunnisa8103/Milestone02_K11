@@ -145,6 +145,7 @@ input {
 .message {
     padding: 1em 1.5em;
     color: white;
+    cursor: pointer;
 }
 
 .message > .flex {
