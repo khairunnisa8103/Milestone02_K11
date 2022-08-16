@@ -79,6 +79,7 @@ h3 {
 h2 {
     color: #6DD3CF;
     font-size: min(4.49vh, 3.19vw);
+    font-weight: bold;
     text-align: center;
     margin-bottom: 3vh;
 }
@@ -87,9 +88,4 @@ h2 {
     margin: 0vh 5vw;
     font-size: min(3.03vh, 2.15vw);
     text-align: justify;
-    opacity: .5;
-}
-
-.latar-belakang:hover {
-    opacity: 1;
 }
