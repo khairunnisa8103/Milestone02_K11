@@ -4,7 +4,7 @@
 Judul Solusi            : Findanziare
 Nomor dan nama kelompok : 11, Findanziare 
 Nama, nim, dan kontribusi : 
-    1.  Reza Pahlevi Ubaidillah         16521048             
+    1.  Reza Pahlevi Ubaidillah         16521048   FrontEnd(Message, Chat)
     2.  Louis Caesa Kesuma              16521099   FrontEnd(Login, Register, masukan, masukan terkirim, konfirmasi pembayaran)         
     3.  Clara Alrosa Fernanda Sinaga    16521202             
     4.  Ferdinand Refrandt              16521246   FrontEnd(settings)
