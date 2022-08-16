@@ -1,2 +1,4 @@
 login -> belum bisa ngestore user mana yang mau login tapi bisa auth
 register -> belum bisa ngestore user baru ke json
+post_project -> belum bisa store file dan data ke json 
+project_detail -> belum bisa display file dan data
