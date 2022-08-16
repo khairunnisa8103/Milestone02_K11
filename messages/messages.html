@@ -9,7 +9,7 @@
             <nav id="message-dashboard" class="flex-container flex-column">
                 <div id="message-menu" class="flex-container">
                     <span class="icon arrow-icon"></span>
-                    <span id="message-header" class="flex">Messages</span>
+                    <span class="flex message-header">Messages</span>
                     <span class="icon new-message-icon"></span>
                 </div>
                 <div id="message-search-container" class="flex-container container">
@@ -87,7 +87,11 @@
                 </div>
             </nav>
             <article id="message-content" class="flex-container flex-column">
-                sadas
+                <div id="inactive-message">
+                    <p class="message-header">Select a message</p>
+                    <span>New message</span>
+                </div>
+                <div id="active-message" hidden></div>
             </article>
         </main>
     </body>
