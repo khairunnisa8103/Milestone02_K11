@@ -15,5 +15,8 @@ Nama, nim, dan kontribusi :
     9.  Razzan Daksana Yoni             16521378   FrontEnd(post_project,project_detail,home)
     10. Muhammad Mumtaz                 16521488   FrontEnd(Profile)
     11. Khairunnisa Hurun 'Iin          16521521   Redesign solusi            
-    12. Syasya Umaira                   16521537   Redesign solusi               
+    12. Syasya Umaira                   16521537   Redesign solusi       
+
+Solusi dibuat menggunakan native language yaitu HTML,css, dan javascript dalam bentuk website cara menjalankannya adalah sebagai berikut
+https://lucid.app/lucidchart/5f1c9e6c-ab66-4afd-909e-27474198f357/edit?viewport_loc=147%2C2004%2C2192%2C1120%2C0_0&invitationId=inv_3fee8b51-e591-471e-9bc9-99acd5ed1f91#        
 </pre>
