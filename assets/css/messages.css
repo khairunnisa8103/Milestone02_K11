@@ -260,7 +260,7 @@ input {
     max-width: 80%;
     flex: 1;
     margin-right: auto;
-    margin-top: 0.5em;
+    margin-top: 1.5em;
 }
 
 .message-instance-container-user {
@@ -280,4 +280,12 @@ input {
 
 .message-instance-user {
     background-color: var(--blue);
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.void {
+    display: none;
 }

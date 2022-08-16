@@ -87,14 +87,14 @@
                 </div>
             </nav>
             <article id="message-content" class="flex-container flex-column">
-                <div id="inactive-message" hidden>
+                <div id="inactive-message">
                     <p class="message-header">Select a message</p>
                     <span>New message</span>
                 </div>
-                <div id="active-message" class="flex-container flex-column">
+                <div id="active-message" class="flex-container flex-column void">
                     <div id="message-contact" class="flex-container container">
                         <span class="profile-icon"></span>
-                        <div class="flex flex-container flex-column">
+                        <div id="message-contact-id" class="flex flex-container flex-column">
                             <span class="display-name">John Doe</span>
                             <span class="display-username">@johnny</span>
                         </div>
@@ -140,14 +140,14 @@
                         </div>
                         <div class="message-instance-container flex-container">
                             <span class="profile-icon"></span>
-                            <div class="message-instance flex-container"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit omnis consectetur cumque doloremque? Obcaecati, similique voluptatum. Fugit, maxime nesciunt! Nesciunt est ad tempore inventore expedita facilis ex corrupti, ea iste.</p></div>
+                            <div class="message-instance flex-container"><p>Lorem ipsum, dolor iste.</p></div>
                         </div>
                         <div class="message-instance-container flex-container">
-                            <span class="profile-icon"></span>
+                            <span class="profile-icon hidden"></span>
                             <div class="message-instance flex-container"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit omnis consectetur cumque doloremque? Obcaecati, similique voluptatum. Fugit, maxime nesciunt! Nesciunt est ad tempore inventore expedita facilis ex corrupti, ea iste.</p></div>
                         </div>
                         <div class="message-instance-container-user message-instance-container flex-container">
-                            <div class="message-instance message-instance-user flex-container"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit omnis consectetur cumque doloremque? Obcaecati, similique voluptatum. Fugit, maxime nesciunt! Nesciunt est ad tempore inventore expedita facilis ex corrupti, ea iste.</p></div>
+                            <div class="message-instance message-instance-user flex-container"><p>Lorem ipsum</p></div>
                         </div>
                     </div>
                     <div id="message-response-container">
@@ -160,5 +160,7 @@
                 </div>
             </article>
         </main>
+
+        <script type="text/javascript" src="../scripts/messages.js"></script>
     </body>
 </html>

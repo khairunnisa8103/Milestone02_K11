@@ -1,0 +1,6 @@
+{
+    "johnny": [
+        {"is_author_self": false, "content": "Halo dunia!"},
+        {"is_author_self": true, "content": "Halo jugaa!"}
+    ]
+}
